@@ -1,0 +1,57 @@
+.footer{
+    background-color: $color-10;    
+}
+
+.column{
+    float: left;
+    padding-left: 100px;
+    
+}
+
+.line-1{
+    margin-top: 40px;   
+    width: 100%;
+    height: 100%;           
+    padding: 50px;
+    overflow: auto;
+    }
+
+.line-1 li{
+    list-style: none;
+    line-height: 50px;
+       
+}
+
+.infos__title{
+    font-weight: bold;
+}
+
+.infos{
+    line-height: 25px;
+}
+
+.infos p{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px; 
+}
+
+.links{
+    padding-top: 80px;
+    padding-left: 250px;
+}
+
+.links a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px; 
+}
+
+.line-2 {
+    background-color: #000;
+    color: $color-5;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 13px;
+}

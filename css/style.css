@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+.main-menu {
+  position: fixed;
+  background: #000;
+  width: 100%;
+  margin-left: -15px;
+  padding-bottom: 25px; }
+  .main-menu__list {
+    list-style: none; }
+    .main-menu__list li {
+      display: inline-block;
+      margin: 20px 30px 1px 20px;
+      float: right; }
+  .main-menu__iten {
+    color: #e8e8e4;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .main-menu__iten--current {
+    color: #fec89a; }
+
+.footer {
+  background-color: #fec89a; }
+
+.column {
+  float: left;
+  padding-left: 100px; }
+
+.line-1 {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  overflow: auto; }
+
+.line-1 li {
+  list-style: none;
+  line-height: 50px; }
+
+.infos__title {
+  font-weight: bold; }
+
+.infos {
+  line-height: 25px; }
+
+.infos p {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px; }
+
+.links {
+  padding-top: 80px;
+  padding-left: 250px; }
+
+.links a {
+  padding-top: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 17px; }
+
+.line-2 {
+  background-color: #000;
+  color: #e8e8e4;
+  text-align: center;
+  padding-top: 1px;
+  font-size: 13px; }
+
+.container {
+  margin: 0 auto;
+  width: 100%; }
+
+.img-left {
+  float: left;
+  max-width: 600px; }
+
+.text-center {
+  text-align: center;
+  color: #fec5bb; }
+
+body {
+  background: #000;
+  font-family: 'Oswald', sans-serif;
+  color: #e8e8e4;
+  max-width: 100%; }
+
+#img-home {
+  max-width: 100%;
+  height: 100%;
+  display: block; }
+
+.home-title {
+  color: #e8e8e4;
+  font-size: 65px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 140px; }
+
+.home-subtitle {
+  color: #fec5bb;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 30;
+  text-align: center;
+  margin-top: 30px; }
+
+.home-description {
+  font-size: 16px;
+  color: #d8e2dc;
+  padding: 20px;
+  margin-left: 40px; }
+
+.form {
+  padding-top: 120px; }
+
+.form-group {
+  padding: 10px; }
+
+.form__iten {
+  width: 100%;
+  margin-left: 30px; }

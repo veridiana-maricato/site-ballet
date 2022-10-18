@@ -1,0 +1,18 @@
+@import 'abstracts/_colors';
+
+@import 'layout/_header';
+@import 'layout/_footer';
+@import 'layout/_container';
+@import 'layout/_img-alignment';
+@import 'layout/_text-alignment';
+@import 'layout/_body';
+
+@import 'base/_fonts';
+// @import 'base/_normalize';
+
+@import 'pages/_index';
+@import 'pages/_about';
+@import 'pages/_contact';
+@import 'pages/_photos';
+
+@import 'components/form'
