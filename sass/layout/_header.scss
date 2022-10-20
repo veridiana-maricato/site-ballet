@@ -1,24 +1,45 @@
 .main-menu{
-    position: fixed;
-    
+    position: fixed;    
     background: #000;
     width: 100%;
-    margin-left: -15px;
-    padding-bottom: 25px;
     &__list{
-        list-style: none;
-        li{
-            display: inline-block;
-            margin: 20px 30px 1px 20px;              
-            float: right;      
+        list-style: none;   
+        margin-right: 30px;
+        margin-bottom: 30px;
+        margin-top: 35px;
         }
-    }
     &__iten{
     color: $color-5; 
     text-decoration: none;  
     text-transform: uppercase;
+    font-size: 16px;
     }
+    &__iten:hover{
+    color: $color-10; 
+    transition: all 400ms ease;
+    font-size: 17px;
+    }
+
     &__iten--current{
-        color: $color-10;
+        color: $color-1;
     }    
+    &__iten--current:hover{
+        color: $color-1;       
+        transition: all 400ms ease;
+        font-size: 16px;
+    }    
+}
+
+.container-header{
+    display: flex;
+    justify-content: end;
+    gap: 5%;
+}
+
+.logo{
+   position: absolute;
+   top:3px;
+   text-transform: uppercase;
+   left: 30px;
+   font-size: 25px;
 }

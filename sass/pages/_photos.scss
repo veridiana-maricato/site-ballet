@@ -1,0 +1,17 @@
+.container-photos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 160px;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.photo-frame{
+    width: 370px;
+    height: 150px;
+    padding: 3px;
+}
+.img-photo{
+    max-width: 100%;
+    max-height: 100%;
+}

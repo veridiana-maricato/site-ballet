@@ -1,5 +1,5 @@
 #img-home{
-    max-width: 100%;
+    max-width: 200%;
     height: 100%;
     display: block;
 }
@@ -11,21 +11,19 @@
     text-transform: uppercase;
     font-weight: 200;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 50px;
 }
 .home-subtitle{
-    color: $color-1;
+    color: $color-5;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     text-transform: uppercase;
     font-weight: 30;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .home-description{
     font-size: 16px;
     color: $color-6;
-    padding: 20px;
-    margin-left: 40px;
 }

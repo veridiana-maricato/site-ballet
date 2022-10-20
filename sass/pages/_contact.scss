@@ -1,0 +1,15 @@
+.submit{
+    text-align: center;
+    margin-top: 15px;    
+}
+
+#submit{
+    font-size: 14px;
+color: black;
+border-radius: 5px;
+}
+#submit:hover{
+    background: $color-10;
+    scale: 1.03;
+    transition: all 200ms ease-out;
+}

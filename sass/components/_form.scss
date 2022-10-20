@@ -3,10 +3,17 @@
 }
 
 .form-group{
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
 }
 
+.form__label{
+    padding-bottom: 100px;
+    color: $color-5;
+    line-height: 25px;
+}
 .form__iten{
     width: 100%;
-    margin-left: 30px;
+    background-color: $color-5
 }
