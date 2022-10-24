@@ -13,7 +13,9 @@
     color: $color-5;
     line-height: 25px;
 }
-.form__iten{
+.form__item{
     width: 100%;
-    background-color: $color-5
+    background-color: rgba($color: $color-3, $alpha: 0.7);
+    border-radius: 2px;
+    border: none;
 }

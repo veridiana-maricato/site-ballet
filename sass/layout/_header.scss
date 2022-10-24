@@ -8,22 +8,22 @@
         margin-bottom: 30px;
         margin-top: 35px;
         }
-    &__iten{
+    &__item{
     color: $color-5; 
     text-decoration: none;  
     text-transform: uppercase;
     font-size: 16px;
     }
-    &__iten:hover{
+    &__item:hover{
     color: $color-10; 
     transition: all 400ms ease;
     font-size: 17px;
     }
 
-    &__iten--current{
+    &__item--current{
         color: $color-1;
     }    
-    &__iten--current:hover{
+    &__item--current:hover{
         color: $color-1;       
         transition: all 400ms ease;
         font-size: 16px;
@@ -38,8 +38,8 @@
 
 .logo{
    position: absolute;
-   top:3px;
+   top:2px;
    text-transform: uppercase;
-   left: 30px;
-   font-size: 25px;
+   left: 80px;
+   font-size: 27px;
 }
