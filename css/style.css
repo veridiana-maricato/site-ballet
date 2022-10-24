@@ -496,7 +496,7 @@ template {
 .container-all-photos {
   display: flex; }
 
-.container-photos {
+.container-photos-about {
   width: 50px;
   height: 50px;
   overflow: hidden; }
@@ -516,27 +516,14 @@ template {
   transition: all 200ms ease-out; }
 
 .background-image {
-  background-image: url("/img/ballerina.jpg");
+  background-image: url("/img/ballerina-grande.jpg");
   background-repeat: no-repeat;
   height: auto;
   padding-bottom: 250px; }
 
 .container-photos {
   display: flex;
-  flex-wrap: wrap;
-  padding: 160px;
-  margin-bottom: 200px;
-  justify-content: center;
-  align-items: center; }
-
-.photo-frame {
-  width: 370px;
-  height: 150px;
-  padding: 3px; }
-
-.img-photo {
-  max-width: 100%;
-  max-height: 100%; }
+  flex-wrap: wrap; }
 
 .form {
   padding-top: 120px; }
