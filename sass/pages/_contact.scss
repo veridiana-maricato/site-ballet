@@ -5,8 +5,11 @@
 
 #submit{
     font-size: 14px;
-color: black;
+    font-weight: bold;
+color: grey;
 border-radius: 5px;
+background: $color-3;
+border: 2px solid $color-1;
 }
 #submit:hover{
     background: $color-10;
